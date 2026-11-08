@@ -1,0 +1,12 @@
+# qr-to-code
+
+> Text to QR transfer. Paste text or code, it is split into ordered chunks (never cutting a multibyte character), each shown as a QR code to scan in sequence. A final checksum QR lets the receiving side verify the reassembled text. One HTML file plus a vendored QR library, works offline.
+
+## Docs
+
+- [README.md](https://github.com/puIad/qr-to-code/blob/main/README.md): how to use it and the scanner caveats
+
+## Source
+
+- [index.html](https://github.com/puIad/qr-to-code/blob/main/index.html): the whole app: UI, chunking, checksum
+- [qrcode.min.js](https://github.com/puIad/qr-to-code/blob/main/qrcode.min.js): vendored QR encoder
